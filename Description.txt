@@ -1,0 +1,3 @@
+This folder contains all class practice files.
+folders will be named by dates of the lessons. 
+folders within general lesson folders will be named after the subjects learned.
