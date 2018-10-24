@@ -1,3 +1,6 @@
 This folder contains all class practice files.
 folders will be named by dates of the lessons. 
-folders within general lesson folders will be named after the subjects learned.
+inside of general lesson folders, we distribute
+the files into folders divided by programming languages.
+the file names are ascending numeric names beggining with 001
+for example: "es_jb_class_practice-master/16_10_18/html/001.html"
