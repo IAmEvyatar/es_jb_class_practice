@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form Input experiments</title>
+
+</head>
+<body>
+    <form action="get">
+       <fieldset>
+        <input type="text" placeholder="Hi you can write here">
+           <textarea>I am a text area</textarea>
+       </fieldset>
+       <fieldset>
+        <legend>Choose how to reply</legend>
+        <input type="radio" id="Hi"  name="Yo"><label for="Hi">Hi</label>
+        <input type="radio" id="Hello" name="Yo"><label for="Hello">Hello</label>
+        <input type="number" readonly="readonly">
+        <input type="date" disabled="disabled">
+       </fieldset>
+       <fieldset>
+       <legend>Enter Username</legend>
+
+        <input type="mail" placeholder="Email">
+        <input type="text" maxlength="24" placeholder="User Name">
+        <input type="password" maxlength="16" placeholder="Password">
+        <input type="password" maxlength="16" placeholder="Confirm Password">
+        <button type="submit">Submit</button>
+        </fieldset>
+    </form>
+</body>
+</html>

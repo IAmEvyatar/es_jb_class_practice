@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>This document comes to show internal styling</title>
+    <style>
+        * {
+            margin:0;
+        }
+        header h1, h2 {
+            text-align:center;
+            color:rebeccapurple;
+            line-height: 3;
+        }
+        header {
+            background-color: #dddddd;
+            height:25vh;
+        }
+        main h3 {
+            color:olivedrab;
+            text-decoration: underline;
+            text-align: center;
+            margin-top:100px;
+        }
+        p {
+            color:mediumseagreen;
+            text-align:center;
+            font-size:20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Hello world this header is styled using internal styling</h1>
+        <h2>internal styling is basically using a style tag in the <code>&lt;head&gt;</code> Tag</h2>
+    </header>
+    <main>
+        <article>
+            <h3>Css separation from HTML is crucial to scalability and maintainance.
+            </h3>
+            <p>In order to have more legible HTML, we seperate the concerns of styling and semantics.
+            all styling will be done either in a style tag in the documents header or in a seperate file linked to from the documents header (most recommended way).</p>
+        </article>
+    </main>
+</body>
+</html>
